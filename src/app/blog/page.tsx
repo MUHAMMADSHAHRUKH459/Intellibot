@@ -6,20 +6,22 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  description: "This is Blog Page for Startup Next.js Template",
 };
 
 const Blog = () => {
   return (
     <>
+      {/* Breadcrumb Section */}
       <Breadcrumb
         pageName="Our Services"
         description="Explore Intellibot Creation's cutting-edge AI chatbot solutions and web development services. Transform your business with our innovative technology tailored to your needs."
       />
 
+      {/* Blog Section */}
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
+          {/* Blog Posts Grid */}
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
@@ -31,57 +33,38 @@ const Blog = () => {
             ))}
           </div>
 
+          {/* Pagination */}
           <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">
                 <li className="mx-1">
                   <a
-                    href="#0"
+                    href="#"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     Prev
                   </a>
                 </li>
+                {/* Pagination Numbers */}
+                {[1, 2, 3, "...", 12].map((item, index) => (
+                  <li key={index} className="mx-1">
+                    {item === "..." ? (
+                      <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
+                        {item}
+                      </span>
+                    ) : (
+                      <a
+                        href={`#page=${item}`}
+                        className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                      >
+                        {item}
+                      </a>
+                    )}
+                  </li>
+                ))}
                 <li className="mx-1">
                   <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    1
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    2
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    3
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
-                    ...
-                  </span>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    12
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
+                    href="#"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     Next

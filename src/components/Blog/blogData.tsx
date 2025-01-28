@@ -12,7 +12,8 @@ const blogData: Blog[] = [
       image: "/images/blog/muskan.jpg",
       designation: "Web Designer",
     },
-    tags: ["Web Designing"]
+    tags: ["Web Designing"],
+    publishDate: "2023-09-15",
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ const blogData: Blog[] = [
       image: "/images/blog/srk.jpg",
       designation: "Web Developer",
     },
-    tags: ["Frontend & Backend"]
+    tags: ["Frontend & Backend"],
+    publishDate: "2023-10-01",
   },
   {
     id: 3,
@@ -38,7 +40,9 @@ const blogData: Blog[] = [
       image: "/images/blog/sikan.jpg",
       designation: "Gen AI Developer",
     },
-    tags: ["AI Solution"]
+    tags: ["AI Solution"],
+    publishDate: "2023-10-10",
   },
 ];
+
 export default blogData;
