@@ -1,5 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const frontend = () => {
   return (
@@ -20,13 +21,15 @@ const frontend = () => {
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-                <img
+                <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="images/frontend/body.png"
+                  src="/images/frontend/body.png"
                   alt="The Body Shop"
+                  width={500}
+                  height={400}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                <Link target='_blank' href="https://mileston-3-project.vercel.app/">
+                  <Link target="_blank" href="https://mileston-3-project.vercel.app/">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -36,41 +39,45 @@ const frontend = () => {
                   The Body Shop
                 </h2>
                 <p className="leading-relaxed text-base">
-                A sleek and visually engaging e-commerce website built to showcase beauty and skincare products, featuring responsive design with Nextjs and Tailwind Css.
+                  A sleek and visually engaging e-commerce website built to showcase beauty and skincare products, featuring responsive design with Nextjs and Tailwind Css.
                 </p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-                <img
+                <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="images/frontend/yumspot.png"
+                  src="/images/frontend/yumspot.png"
                   alt="YumSpot"
+                  width={500}
+                  height={400}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                <Link target='_blank' href="https://yum-spot.vercel.app/">
+                  <Link target="_blank" href="https://yum-spot.vercel.app/">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
                   </Link>
                 </h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">
-                 YumSpot Restaurant Website
+                  YumSpot Restaurant Website
                 </h2>
                 <p className="leading-relaxed text-base">
-                A sleek restaurant website showcasing menus, offers, and reservations with responsive design using HTML, CSS, and JavaScript.
+                  A sleek restaurant website showcasing menus, offers, and reservations with responsive design using HTML, CSS, and JavaScript.
                 </p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-                <img
+                <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="images/frontend/mn.png"
+                  src="/images/frontend/mn.png"
                   alt="portfolio"
+                  width={500}
+                  height={400}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                <Link target='_blank' href="https://horse-theme-portfolio.vercel.app/">
+                  <Link target="_blank" href="https://horse-theme-portfolio.vercel.app/">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -80,19 +87,21 @@ const frontend = () => {
                   Portfolio Website
                 </h2>
                 <p className="leading-relaxed text-base">
-                A responsive portfolio to showcase skills and projects, built with modern frontend technologies like HTML, CSS And Javascript.
+                  A responsive portfolio to showcase skills and projects, built with modern frontend technologies like HTML, CSS And Javascript.
                 </p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-                <img
+                <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="images/frontend/comforty.png"
+                  src="/images/frontend/comforty.png"
                   alt="Interactive UI"
+                  width={500}
+                  height={400}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                <Link target='_blank' href="https://ui-ux-hackathon-lemon.vercel.app/">
+                  <Link target="_blank" href="https://ui-ux-hackathon-lemon.vercel.app/">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -102,7 +111,7 @@ const frontend = () => {
                   Interactive User Interface
                 </h2>
                 <p className="leading-relaxed text-base">
-                Engaging and user-friendly interface designs focused on seamless navigation and enhanced user experience, built using Next.js and designed with Figma.
+                  Engaging and user-friendly interface designs focused on seamless navigation and enhanced user experience, built using Next.js and designed with Figma.
                 </p>
               </div>
             </div>
@@ -110,7 +119,7 @@ const frontend = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default frontend
+export default frontend;
