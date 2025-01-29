@@ -80,7 +80,7 @@ const chatbots = () => {
                   height={300}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                  <Link target="_blank" href="">
+                  <Link target="_blank" href="https://shifa-zone.vercel.app/">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
