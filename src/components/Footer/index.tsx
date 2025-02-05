@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook }  from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 
 const Footer = () => {
@@ -32,12 +32,15 @@ const Footer = () => {
                 Intellibot Creation is dedicated to delivering cutting-edge AI-powered chatbot solutions that enhance customer engagement, streamline operations, and provide personalized experiences. Let us help you revolutionize your business with intelligent automation.
                 </p>
                 <div className="flex items-center space-x-6">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/profile.php?id=61572977515980" target="_blank" rel="noopener noreferrer">
                   <FaFacebook className="text-gray-600 hover:text-blue-800 text-2xl" />
-                 </a>
-                <a href="https://www.instagram.com/intellibot.creation?igsh=YWd3OThtcTI3ZTM0&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                  </a>
+                  <a href="https://www.instagram.com/intellibot.creation?igsh=YWd3OThtcTI3ZTM0&utm_source=qr" target="_blank" rel="noopener noreferrer">
                   <IoLogoInstagram className="text-gray-500 hover:text-pink-700 text-2xl" />
                   </a>
+                  {/* <a href="intellibotcreation@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope className="text-gray-600 hover:text-red-800 text-2xl" />
+                  </a> */}
                   <a
                     href="https://www.linkedin.com/company/intellibot-creation/"
                     aria-label="linkdin"
