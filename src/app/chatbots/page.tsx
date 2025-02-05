@@ -25,13 +25,13 @@ const chatbots = () => {
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="/images/chatbot/gym.png"
-                  alt="gym"
+                  src="/images/chatbot/blue.png"
+                  alt="blue"
                   width={400}
                   height={300}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                  <Link target="_blank" href="https://titan-fit-website.vercel.app/">
+                  <Link target="_blank" href="https://bluewave-aviation.vercel.app/index.html">
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -41,8 +41,7 @@ const chatbots = () => {
                   Transforming GYM Experiences with AI-Powered Chatbots
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Our Gym AI Agent - Your Ultimate Fitness Companion! Our AI agent is your personal fitness assistant that:
-                  Creates tailored workout and meal plans. Offers real-time exercise tips. Tracks progress and keeps you motivated. Enhancing customer satisfaction with 24/7 support.
+                  BlueWave Aviation Your Trusted Air Travel Partner! We provide seamless flight booking, personalized travel recommendations, and real-time assistance through our AI-powered agent. Experience hassle-free air travel with smart automation and exceptional customer support.
                 </p>
               </div>
             </div>
