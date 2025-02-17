@@ -43,6 +43,22 @@ const blogData: Blog[] = [
     tags: ["AI Solution"],
     publishDate: "2023-10-10",
   },
+  {
+    id: 3,
+    title: "Revolutionize Your Business with Digital Marketing",
+    paragraph:
+      "Unlock the full potential of your business with data-driven digital marketing strategies. From boosting brand visibility to driving conversions, we tailor every solution to your unique goals for maximum impact.",
+    image: "/images/blog/webd.jpg",
+    author: {
+      name: "Ahmed Raza Nisar",
+      image: "/images/blog/ahmed1.jpg",
+      designation: "Digital Marketer",
+    },
+    tags: ["Digital Marketing"],
+    publishDate: "2023-10-10",
+  },
 ];
 
 export default blogData;
+
+
