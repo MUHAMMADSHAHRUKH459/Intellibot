@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook }  from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io";
-
-const Footer = () => {
-  return (
-    <>
+import { FaFacebook,  FaPhone }  from "react-icons/fa";
+import { IoLogoInstagram, IoMdMailOpen,   } from "react-icons/io";
+export default function Footer () {
+return(
+    
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -101,6 +100,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
@@ -136,17 +136,29 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Contact US
+                </h2>
+                <div className="flex items-center gap-2">
+                📧
+        <span > intellibotcreation459@gmail.com</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <FaPhone className="text-white text-xl" />
+        <span >+44 7888 267902</span>
+      </div>
         </div>
-
+</div> </div> 
         <div className="mt-12 border-t border-gray-200 pt-6 text-center">
           <p className="text-sm text-body-color dark:text-body-color-dark">
             © 2025 IntellibotCreation. All rights reserved.
           </p>
-        </div>
+       
+          </div>
+           </div> 
       </footer>
-    </>
-  );
-};
-
-export default Footer;
+    
+)  
+}
