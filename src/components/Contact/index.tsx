@@ -90,7 +90,7 @@ const Contact = () => {
               </p>
               <div className="flex items-center gap-2">
         <FaPhone className="  text-primary text-xl" />
-        <span >+44 7888 267902</span>
+        <span className="text-primary" >+44 7888 267902</span>
       </div>
               <p className="text-base font-medium text-primary">
                 🕒 Support Hours: Monday - Friday, 9 AM - 6 PM
