@@ -89,7 +89,7 @@ const Contact = () => {
               📧 Email: <a href="mailto: intellibotcreation459@gmail.com"> intellibotcreation459@gmail.com</a>
               </p>
               <div className="flex items-center gap-2">
-        <FaPhone className="  text-primary text-xl" />
+        <FaPhone className="   text-xl" />
         <span className="text-primary" >+44 7888 267902</span>
       </div>
               <p className="text-base font-medium text-primary">
