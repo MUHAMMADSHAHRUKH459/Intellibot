@@ -12,12 +12,6 @@ import Hero from "@/components/Hero";
 // import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 // import Video from "@/components/Video";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Intellibot Creation",
-  description: "This is an AI Automation company",
-};
 
 const PIXEL_ID = "664248859624021";
 
