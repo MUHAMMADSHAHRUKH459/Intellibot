@@ -12,7 +12,7 @@ const Chatbot = () => {
   useEffect(() => {
     (function (d, m) {
       var kommunicateSettings = {
-        appId: "7266e7cfd4c0c7c8f0d93d4de409a977", // Naya appId
+        appId: "1ccb7ede72baa273b2091e1072db51847", // Updated appId
         popupWidget: true,
         automaticChatOpenOnNavigation: true,
       };
@@ -30,4 +30,4 @@ const Chatbot = () => {
   return <></>;
 };
 
-export default Chatbot;
+export default Chatbot;
