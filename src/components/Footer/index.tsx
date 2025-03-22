@@ -68,15 +68,15 @@ return(
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/backend"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Projects
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about-us"
+                      href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About Us
@@ -92,7 +92,7 @@ return(
                   </li>
                   <li>
                     <Link
-                      href="/contact-us"
+                      href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Contact Us
