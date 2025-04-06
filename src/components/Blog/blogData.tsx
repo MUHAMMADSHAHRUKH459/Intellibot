@@ -31,20 +31,6 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Revolutionize Your Business with Advanced Chatbot Development",
-    paragraph:
-      "Discover how our cutting-edge chatbot development services can transform customer interactions, automate workflows, and enhance user engagement. Tailored solutions to fit your business needs.",
-    image: "/images/blog/chat.jpg",
-    author: {
-      name: "Sikandar Ali",
-      image: "/images/blog/sikan.jpg",
-      designation: "Gen AI Developer",
-    },
-    tags: ["AI Solution"],
-    publishDate: "2023-10-10",
-  },
-  {
-    id: 3,
     title: "Revolutionize Your Business with Digital Marketing",
     paragraph:
       "Unlock the full potential of your business with data-driven digital marketing strategies. From boosting brand visibility to driving conversions, we tailor every solution to your unique goals for maximum impact.",

@@ -77,15 +77,7 @@ const BlogDetailsPage = () => {
                 </p>
               </div>
 
-              {/* Service 3: Chatbot Development by Sikandar Ali */}
-              <div className="service-card bg-black p-8 rounded-lg shadow-lg max-w-xs text-center">
-                <h3 className="text-xl font-semibold text-black dark:text-white">
-                  Chatbot Development by Sikandar Ali
-                </h3>
-                <p className="mt-4 text-base text-body-color dark:text-body-color-light">
-                  With 3 years of experience in chatbot development, Sikandar Ali creates AI-powered chatbots that enhance customer interaction and streamline business processes. From simple FAQs to advanced conversational agents, he delivers smart solutions.
-                </p>
-              </div>
+             
             </div>
           </section>
         </div>
