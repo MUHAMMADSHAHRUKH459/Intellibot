@@ -70,10 +70,10 @@ const BlogDetailsPage = () => {
               {/* Service 2: Web Development by Shahrukh Javed */}
               <div className="service-card bg-black p-8 rounded-lg shadow-lg max-w-xs text-center">
                 <h3 className="text-xl font-semibold text-black dark:text-white">
-                  Web Development by Shahrukh Javed
+                  Web & Chatbot Development by Shahrukh Javed
                 </h3>
                 <p className="mt-4 text-base text-body-color dark:text-body-color-light">
-                  As the founder of Intellibot Creation, Shahrukh Javed has 2 years of experience in web development. He focuses on building robust, scalable, and responsive websites that offer seamless user experiences across all devices.
+                As the founder of Intellibot Creation, Shahrukh Javed has 2 years of experience in web development and AI chatbot creation. He focuses on building robust, scalable, and responsive websites and chatbots that offer seamless user experiences across all devices.
                 </p>
               </div>
 

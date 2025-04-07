@@ -14,7 +14,7 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Ahmed Raza",
+    name: "Irfan Khan",
     designation: "Founder @UIdeck",
     content:
       "The chatbot solutions by Intellibot Creation revolutionized how we engage with our customers. The AI-driven responses are seamless and highly effective.",
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Uzair Khan",
     designation: "Founder @Lineicons",
     content:
-      "Their web design services brought our vision to life. From creative layouts to responsive designs, they delivered beyond our expectations.",
+      "Their web design services brought our vision to life. From creative layouts to responsive designs and seamless AI-powered chatbots, they not only met but exceeded our expectations.",
     image: "/images/testimonials/male.jpg",
     star: 5,
   },

@@ -54,12 +54,6 @@ const menuData: Menu[] = [
         path: "/chatbots",
         newTab: false,
       },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
     ],
   },
 ];

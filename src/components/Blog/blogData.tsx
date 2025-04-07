@@ -19,15 +19,15 @@ const blogData: Blog[] = [
     id: 2,
     title: "Explore Our Expert Web Development Services",
     paragraph:
-      "We specialize in creating dynamic, user-friendly, and responsive websites tailored to your business needs. From frontend design to backend functionality, we bring your vision to life with cutting-edge technology.",
+      "We specialize in creating dynamic, user-friendly, and responsive websites and AI chatbots tailored to your business needs. From frontend design to backend functionality, we bring your vision to life with cutting-edge technology.",
     image: "/images/blog/webdev.jpg",
     author: {
       name: "Shahrukh Javed",
       image: "/images/blog/srk.jpg",
-      designation: "Web Developer",
+      designation: "Web & Chatbot Developer",
     },
     tags: ["Frontend & Backend"],
-    publishDate: "2023-10-01",
+    publishDate: "2022-09-27",
   },
   {
     id: 3,
