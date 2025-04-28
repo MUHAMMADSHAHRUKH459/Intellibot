@@ -12,7 +12,7 @@ const Chatbot = () => {
   useEffect(() => {
     (function (d, m) {
       var kommunicateSettings = {
-        appId: "1ccb7ede72baa273b2091e1072db51847", // Updated appId
+        appId: "ef1e05b047fcd591db01579dd541d157", // Updated appId
         popupWidget: true,
         automaticChatOpenOnNavigation: true,
       };
@@ -27,7 +27,7 @@ const Chatbot = () => {
     })(document, window.kommunicate || {});
   }, []);
 
-  return <></>;
+  return null; // empty component
 };
 
 export default Chatbot;
