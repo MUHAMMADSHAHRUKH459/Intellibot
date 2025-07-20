@@ -2,32 +2,29 @@
 
 import { useEffect } from "react";
 
-declare global {
-  interface Window {
-    kommunicate?: any;
-  }
-}
-
-const Chatbot = () => {
+const KommunicateChat = () => {
   useEffect(() => {
     (function (d, m) {
       const kommunicateSettings = {
-        appId: "29713958bd664aecb4b36fc7e4a37cf0c",
+        appId: "2ab527cfad03d9769414a910684bac87c",
         popupWidget: true,
         automaticChatOpenOnNavigation: true,
       };
+
       const s = document.createElement("script");
       s.type = "text/javascript";
       s.async = true;
       s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+
       const h = d.getElementsByTagName("head")[0];
       h.appendChild(s);
+
       (window as any).kommunicate = m;
       m._globals = kommunicateSettings;
-    })(document, window.kommunicate || {});
+    })(document, (window as any).kommunicate || {});
   }, []);
 
-  return null;
+  return null; // is component ka koi visible UI nahi hai
 };
 
-export default Chatbot;
+export default KommunicateChat;
