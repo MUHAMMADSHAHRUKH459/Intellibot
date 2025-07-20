@@ -24,7 +24,7 @@ const KommunicateChat = () => {
     })(document, (window as any).kommunicate || {});
   }, []);
 
-  return null; // is component ka koi visible UI nahi hai
+  return null; // Yeh component sirf script inject karega
 };
 
 export default KommunicateChat;
