@@ -15,7 +15,8 @@ const KommunicateChat = () => {
       s.type = "text/javascript";
       s.async = true;
       s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-      const h = document.getElementsByTagName("head")[0];
+
+      const h = d.getElementsByTagName("head")[0];
       h.appendChild(s);
 
       (window as any).kommunicate = m;
@@ -23,7 +24,7 @@ const KommunicateChat = () => {
     })(document, (window as any).kommunicate || {});
   }, []);
 
-  return null; // No visual UI needed, it just injects the script
+  return null; // is component ka koi visible UI nahi hai
 };
 
 export default KommunicateChat;
