@@ -26,8 +26,8 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-          < Chatbot />
-          <KommunicateChat />
+          {/* < Chatbot /> */}
+          {/* <KommunicateChat /> */}
           <Footer />
           <ScrollToTop />
         </Providers>
