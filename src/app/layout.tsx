@@ -36,6 +36,3 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";import Chatbot from "@/components/chatbots/chatbot";
-import KommunicateChat from "@/components/chatbots/chatbot";
-
